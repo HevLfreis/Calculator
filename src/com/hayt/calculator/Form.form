@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.hayt.calculator.Form">
+  <grid id="27dc6" binding="Calculator" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="942" height="479"/>
+    </constraints>
+    <properties>
+      <background color="-3355393"/>
+      <doubleBuffered value="true"/>
+      <enabled value="true"/>
+      <font/>
+      <preferredSize width="840" height="480"/>
+    </properties>
+    <border type="etched"/>
+    <children>
+      <grid id="e5b6" binding="input" layout-manager="GridLayoutManager" row-count="5" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="5" left="3" bottom="5" right="3"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3355444"/>
+          <foreground color="-3355393"/>
+          <opaque value="true"/>
+          <preferredSize width="24" height="400"/>
+        </properties>
+        <border type="line">
+          <color color="-103"/>
+        </border>
+        <children>
+          <component id="492f3" class="javax.swing.JButton" binding="sixButton">
+            <constraints>
+              <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font name="Lucida Fax" size="26" style="1"/>
+              <foreground color="-10066177"/>
+              <text value="6"/>
+            </properties>
+          </component>
+          <component id="7ca93" class="javax.swing.JButton" binding="threeButton">
+            <constraints>
+              <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font name="Lucida Fax" size="26" style="1"/>
+              <foreground color="-10066177"/>
+              <text value="3"/>
+            </properties>
+          </component>
+          <component id="2c7c8" class="javax.swing.JButton" binding="equalButton">
+            <constraints>
+              <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font name="Lucida Fax" size="26" style="1"/>
+              <foreground color="-10066177"/>
+              <text value="="/>
+            </properties>
+          </component>
+          <component id="17b49" class="javax.swing.JButton" binding="fourButton">
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font name="Lucida Fax" size="26" style="1"/>
+              <foreground color="-10066177"/>
+              <text value="4"/>
+            </properties>
+          </component>
+          <component id="b8b13" class="javax.swing.JButton" binding="oneButton">
+            <constraints>
+              <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <borderPainted value="true"/>
+              <contentAreaFilled value="true"/>
+              <defaultCapable value="true"/>
+              <font name="Lucida Fax" size="26" style="1"/>
+              <foreground color="-10066177"/>
+              <opaque value="true"/>
+              <text value="1"/>
+            </properties>
+          </component>
+          <component id="90afb" class="javax.swing.JButton" binding="dotButton">
+            <constraints>
+              <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font name="Lucida Fax" size="26" style="1"/>
+              <foreground color="-10066177"/>
+              <text value="."/>
+            </properties>
+          </component>
+          <component id="5e6cd" class="javax.swing.JButton" binding="fiveButton">
+            <constraints>
+              <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font name="Lucida Fax" size="26" style="1"/>
+              <foreground color="-10066177"/>
+              <text value="5"/>
+            </properties>
+          </component>
+          <component id="e6214" class="javax.swing.JButton" binding="twoButton">
+            <constraints>
+              <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font name="Lucida Fax" size="26" style="1"/>
+              <foreground color="-10066177"/>
+              <text value="2"/>
+            </properties>
+          </component>
+          <component id="37eb4" class="javax.swing.JButton" binding="zeroButton">
+            <constraints>
+              <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font name="Lucida Fax" size="26" style="1"/>
+              <foreground color="-10066177"/>
+              <text value="0"/>
+            </properties>
+          </component>
+          <component id="17911" class="javax.swing.JButton" binding="subtractButton">
+            <constraints>
+              <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font name="Lucida Fax" size="26" style="1"/>
+              <foreground color="-10066177"/>
+              <text value="-"/>
+            </properties>
+          </component>
+          <component id="7132c" class="javax.swing.JButton" binding="multiplyButton">
+            <constraints>
+              <grid row="3" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font name="Lucida Fax" size="26" style="1"/>
+              <foreground color="-10066177"/>
+              <text value="×"/>
+            </properties>
+          </component>
+          <component id="5f5aa" class="javax.swing.JButton" binding="divideButton">
+            <constraints>
+              <grid row="4" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font name="Lucida Fax" size="26" style="1"/>
+              <foreground color="-10066177"/>
+              <text value="÷"/>
+            </properties>
+          </component>
+          <component id="40b2f" class="javax.swing.JButton" binding="sevenButton">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font name="Lucida Fax" size="26" style="1"/>
+              <foreground color="-10066177"/>
+              <text value="7"/>
+            </properties>
+          </component>
+          <component id="90297" class="javax.swing.JButton" binding="eightButton">
+            <constraints>
+              <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font name="Lucida Fax" size="26" style="1"/>
+              <foreground color="-10066177"/>
+              <text value="8"/>
+            </properties>
+          </component>
+          <component id="fcef" class="javax.swing.JButton" binding="nineButton">
+            <constraints>
+              <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font name="Lucida Fax" size="26" style="1"/>
+              <foreground color="-10066177"/>
+              <text value="9"/>
+            </properties>
+          </component>
+          <component id="102b4" class="javax.swing.JButton" binding="mButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font name="Lucida Fax" size="20" style="1"/>
+              <foreground color="-10066177"/>
+              <text value="M"/>
+            </properties>
+          </component>
+          <component id="3a80" class="javax.swing.JButton" binding="addButton">
+            <constraints>
+              <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font name="Lucida Fax" size="26" style="1"/>
+              <foreground color="-10066177"/>
+              <text value="+"/>
+            </properties>
+          </component>
+          <component id="1c425" class="javax.swing.JButton" binding="cButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font name="Lucida Fax" size="26" style="1"/>
+              <foreground color="-10066177"/>
+              <text value="C"/>
+            </properties>
+          </component>
+          <component id="7a432" class="javax.swing.JButton" binding="hexButton">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font name="Lucida Fax" size="26" style="1"/>
+              <foreground color="-10066177"/>
+              <text value="hex"/>
+            </properties>
+          </component>
+          <component id="53f25" class="javax.swing.JButton" binding="decButton">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font name="Lucida Fax" size="26" style="1"/>
+              <foreground color="-10066177"/>
+              <text value="dec"/>
+            </properties>
+          </component>
+          <component id="53708" class="javax.swing.JButton" binding="octButton" default-binding="true">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font name="Lucida Fax" size="26" style="1"/>
+              <foreground color="-10066177"/>
+              <opaque value="true"/>
+              <text value="oct"/>
+            </properties>
+          </component>
+          <component id="d0cf7" class="javax.swing.JButton" binding="binButton">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font name="Lucida Fax" size="26" style="1"/>
+              <foreground color="-10066177"/>
+              <horizontalAlignment value="0"/>
+              <text value="bin"/>
+            </properties>
+          </component>
+          <component id="fee65" class="javax.swing.JButton" binding="sqrtButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="133" height="48"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font name="Lucida Fax" size="26" style="1"/>
+              <foreground color="-10066177"/>
+              <opaque value="true"/>
+              <text value="sqrt"/>
+            </properties>
+          </component>
+          <component id="64d41" class="javax.swing.JButton" binding="lnButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font name="Lucida Fax" size="26" style="1"/>
+              <foreground color="-10066177"/>
+              <text value="ln"/>
+            </properties>
+          </component>
+          <component id="e7937" class="javax.swing.JButton" binding="tanButton">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="133" height="48"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font name="Lucida Fax" size="26" style="1"/>
+              <foreground color="-10066177"/>
+              <text value="tan"/>
+            </properties>
+          </component>
+          <component id="df12" class="javax.swing.JButton" binding="cosButton">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="133" height="48"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font name="Lucida Fax" size="26" style="1"/>
+              <foreground color="-10066177"/>
+              <text value="cos"/>
+            </properties>
+          </component>
+          <component id="fcc85" class="javax.swing.JButton" binding="sinButton">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="133" height="48"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font name="Lucida Fax" size="26" style="1"/>
+              <foreground color="-10066177"/>
+              <text value="sin"/>
+            </properties>
+          </component>
+          <component id="4f1fa" class="javax.swing.JButton" binding="powerButton">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="133" height="48"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font name="Lucida Fax" size="26" style="1"/>
+              <foreground color="-10066177"/>
+              <text value="pow"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="3a40a" binding="output" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="10" bottom="0" right="10"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="f2845" class="javax.swing.JTextField" binding="screen">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <autoscrolls value="false"/>
+              <background color="-986896"/>
+              <caretColor color="-1170653"/>
+              <columns value="1"/>
+              <editable value="false"/>
+              <enabled value="true"/>
+              <focusable value="false"/>
+              <font name="Lucida Sans Typewriter" size="36"/>
+              <horizontalAlignment value="4"/>
+              <opaque value="false"/>
+              <preferredSize width="36" height="60"/>
+              <text value="0.0"/>
+            </properties>
+          </component>
+          <component id="c9e77" class="javax.swing.JTextField" binding="symbol">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-986896"/>
+              <caretColor color="-1170653"/>
+              <columns value="1"/>
+              <editable value="false"/>
+              <enabled value="true"/>
+              <focusable value="false"/>
+              <font name="Lucida Sans Typewriter" size="36"/>
+              <horizontalAlignment value="2"/>
+              <opaque value="false"/>
+              <preferredSize width="36" height="60"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
